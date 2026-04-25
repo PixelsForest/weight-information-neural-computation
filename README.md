@@ -38,8 +38,8 @@ This repository contains code and simulations for reproducing the main results i
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/PixelsForest/weight-information-neural-computation.git
-cd weight-information-neural-computation
+git clone https://github.com/PixelsForest/weight-information.git
+cd weight-information
 pip install -r requirements.txt
 ```
 
