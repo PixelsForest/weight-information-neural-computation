@@ -38,22 +38,21 @@ This repository contains code and simulations for reproducing the main results i
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+git clone https://github.com/PixelsForest/weight-information-neural-computation.git
+cd weight-information-neural-computation
 pip install -r requirements.txt
 ```
 
-Launch Jupyter:
+Launch Jupyter from the repository root:
 
 ```bash
 jupyter notebook
 ```
 
-Then open the notebooks in the `notebooks/` folder to reproduce the figures.
+Then navigate to the `notebooks/` folder in the Jupyter interface to reproduce the figures.
 
 
 ## Notes
 
 * Notebooks are pre-executed and include outputs for direct viewing.
-* For best reproducibility, run all notebooks from the repository root directory.
 
