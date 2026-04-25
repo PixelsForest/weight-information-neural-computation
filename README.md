@@ -8,13 +8,9 @@ Code for our paper:
 **Authors:**
 Xinhao Fan, Shreesh P Mysore
 
----
-
 ## Overview
 
 This repository contains code and simulations for reproducing the main results in the paper. The focus is on quantifying information stored in synaptic weights and exploring theoretical insights through numerical experiments.
-
----
 
 ## Repository Structure
 
@@ -37,8 +33,6 @@ This repository contains code and simulations for reproducing the main results i
 * `requirements.txt`
   Python dependencies required to run the code.
 
----
-
 ## Quick Start
 
 Clone the repository and install dependencies:
@@ -57,25 +51,9 @@ jupyter notebook
 
 Then open the notebooks in the `notebooks/` folder to reproduce the figures.
 
----
 
 ## Notes
 
 * Notebooks are pre-executed and include outputs for direct viewing.
 * For best reproducibility, run all notebooks from the repository root directory.
 
----
-
-## Citation
-
-If you find this work useful, please cite:
-
-```text
-[Add BibTeX here after publication]
-```
-
----
-
-## License
-
-This project is licensed under the MIT License.
