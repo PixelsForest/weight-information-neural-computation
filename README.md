@@ -1,4 +1,4 @@
-# Weight Information Project in Neural Computation
+# Weight Information in Neural Networks
 
 Code for our paper:
 
@@ -12,26 +12,27 @@ Xinhao Fan, Shreesh P Mysore
 
 ## Overview
 
-This repository contains code and simulations for reproducing the main results in the paper.
-The focus is on quantifying information stored in synaptic weights and validating theoretical predictions through numerical experiments.
+This repository contains code and simulations for reproducing the main results in the paper. The focus is on quantifying information stored in synaptic weights and exploring theoretical insights through numerical experiments.
 
 ---
 
 ## Repository Structure
 
 * `src/`
-  Core implementation of the methods and computational routines used in the paper.
-  This includes functions for approximation, simulation, and statistical analysis.
+  Core implementation of the methods used in the paper. This includes functions for mutual information approximation and computation.
 
-* `notebooks/`
-  Jupyter notebooks for reproducing figures in the paper:
+* `notebooks/`  
+  Jupyter notebooks for reproducing simulations and figures in the paper:
 
-  * Each notebook corresponds to one main figure
-  * Running the notebooks will regenerate the results and plots
+  * `run_simulation.ipynb`  
+    Runs the core simulations used in the study and generates csv data.
+
+  * `plot_fig2.ipynb`, `plot_fig3.ipynb`, `plot_fig4.ipynb`  
+    Generate Figures 2–4 from the paper using the simulation outputs.
 
 * `data/`
   Precomputed simulation data used in the paper (e.g., for generating final figures).
-  This allows reproducing results without rerunning expensive simulations.
+  This allows reproducing results without rerunning simulations.
 
 * `requirements.txt`
   Python dependencies required to run the code.
