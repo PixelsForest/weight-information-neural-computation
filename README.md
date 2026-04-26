@@ -1,2 +1,58 @@
-# weight-information-neural-computation
-Code for our Neural Computation paper: Quantifying information stored in synaptic connections rather than in firing activities of neural networks
+# Weight Information in Neural Networks
+
+Code for our paper:
+
+**"Quantifying information stored in synaptic connections rather than in firing activities of neural networks"**
+*Neural Computation, 2026*
+
+**Authors:**
+Xinhao Fan, Shreesh P Mysore
+
+## Overview
+
+This repository contains code and simulations for reproducing the main results in the paper. The focus is on quantifying information stored in synaptic weights and exploring theoretical insights through numerical experiments.
+
+## Repository Structure
+
+* `src/`
+  Core implementation of the methods used in the paper. This includes functions for mutual information approximation and computation.
+
+* `notebooks/`  
+  Jupyter notebooks for reproducing simulations and figures in the paper:
+
+  * `run_simulation.ipynb`  
+    Runs the core simulations used in the study and generates csv data.
+
+  * `plot_fig2.ipynb`, `plot_fig3.ipynb`, `plot_fig4.ipynb`  
+    Generate Figures 2–4 from the paper using the simulation outputs.
+
+* `data/`
+  Precomputed simulation data used in the paper (e.g., for generating final figures).
+  This allows reproducing results without rerunning simulations.
+
+* `requirements.txt`
+  Python dependencies required to run the code.
+
+## Quick Start
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/PixelsForest/weight-information.git
+cd weight-information
+pip install -r requirements.txt
+```
+
+Launch Jupyter from the repository root:
+
+```bash
+jupyter notebook
+```
+
+Then navigate to the `notebooks/` folder in the Jupyter interface to reproduce the figures.
+
+
+## Notes
+
+* Notebooks are pre-executed and include outputs for direct viewing.
+
